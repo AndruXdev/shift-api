@@ -82,7 +82,7 @@ The current architecture deliberately avoids these additional components because
    ``` .env
    SHIFT_NOTIFICATION_EMAIL=developer_email
    ```
-   For local environemnt, your Mailpit configuration should be:
+   For local environment, your Mailpit configuration should be:
    ``` .env
     MAIL_MAILER=smtp
     MAIL_SCHEME=null
@@ -120,5 +120,6 @@ When shift is successfully created, the notification meail should appear there.
 10. Test API
 
 API is accessible on http://localhost/api/shifts
+
 Use Postman or curl to send POST request.
 You should get 201 Created returned in the response.
