@@ -101,7 +101,8 @@ The current architecture deliberately avoids these additional components because
 8. Open Mailpit
 
 Mailpit is include in Docker setup and you can open it on http://localhost:8025
-When shift is successfully created, the notification meail should appear there/
+
+When shift is successfully created, the notification meail should appear there.
 
 9. Run tests
 
@@ -117,6 +118,7 @@ When shift is successfully created, the notification meail should appear there/
     ```
 
 10. Test API
+
 API is accessible on http://localhost/api/shifts
 Use Postman or curl to send POST request.
 You should get 201 Created returned in the response.
